@@ -22,7 +22,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 #      Chargement des données 
 
 #    data = pd.read_csv('dataset/test_dataframe.csv')
-data = pd.read_csv('app_test.csv')
+data = pd.read_parquet('app_test.parquet')
 print('la taille de Dataframe est = ', data.shape)
 
 #data.drop(columns = {'Unnamed: 0'}  , inplace = True)
